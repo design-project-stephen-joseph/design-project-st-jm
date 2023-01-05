@@ -58,7 +58,6 @@ h1, h2, h3, h4 .anton-font {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
 }
 
 .colored-circles {
@@ -67,7 +66,7 @@ h1, h2, h3, h4 .anton-font {
     border-radius: 50%;
     color: black;
     font-family: 'Anton', serif;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 1px 4px;
