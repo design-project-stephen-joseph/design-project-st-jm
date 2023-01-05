@@ -74,7 +74,24 @@ h1, h2, h3, h4 .anton-font {
 }
 
 #selectedWork img {
-    border:12px solid #E6E6E6;
+    border:0.5em solid #E6E6E6;
     border-radius: 0.5em;
     width: 100%;
+}
+
+#theLast img {
+    border: 0.5em solid #E6E6E6;
+    border-radius: 0.5em;
+    width: 25%;
+    padding: 0;
+    height: 25%;
+}
+
+#theLast h3 {
+    width: 60%;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
 }
