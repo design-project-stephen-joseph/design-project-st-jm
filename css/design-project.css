@@ -1,11 +1,43 @@
-body{
+* body {
     background-color: #F0F0F0;
     font-family: 'Abel', serif;
 }
 
+h1, h2, h3, h4 .anton-font {
+    font-family: 'Anton', serif;
+}
+/* The following for the root is creating the background colors for the icons */
+:root {
+    --bs-redish: #E6563B;
+    --bs-orangeish: #EB9D3A;
+    --bs-greenish: #7CB06C;
+    --bs-blueish: #00ABA9;
+    --bs-greyish: #E6E6E6;
+}
+
+.bg-redish {
+    background-color: var(--bs-redish);
+}
+
+.bg-orangeish {
+    background-color: var(--bs-orangeish);
+}
+
+.bg-greenish {
+    background-color: var(--bs-greenish);
+}
+
+.bg-blueish {
+    background-color: var(--bs-blueish);
+}
+
+.bg-greyish {
+    background-color: var(--bs-greyish);
+}
+
 .logo-img {
-    height: 105px;
-    width: 105px;
+    height: 95px;
+    width: 95px;
 }
 
 .sub-heading {
@@ -15,47 +47,34 @@ body{
 .sub-sub-heading {
     font-size: 40px;
 }
-.cir1 {
-    background-color: #E6563B;
-    border: 8px solid white;
+
+.colored-icons {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    border: 7px solid white;
+    font-family: 'Anton', serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
-.cir2 {
-    background-color: #EB9D3A;
-    border: 8px solid white;
+
+.colored-circles {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    color: black;
+    font-family: 'Anton', serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 4px;
 }
-.cir3 {
-    background-color: #7CB06C;
-    border: 8px solid white;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-}
-.cir4 {
-    background-color: #00ABA9;
-    border: 8px solid white;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-}
-.content-container {
-    margin-top: 5em;
-    border-top: 2px solid #808080;
-    font-family: Abel;
-}
-.card {
-    margin-outside: 4px solid #E6E6E6;
-}
-.card-label>img {
-    width: 50%;
-    height: auto;
-}
-.dot {
-    max-height: 1.5em;
-    max-width: 1.5em;
+
+#selectedWork img {
+    border:12px solid #E6E6E6;
+    border-radius: 0.5em;
+    width: 100%;
 }
