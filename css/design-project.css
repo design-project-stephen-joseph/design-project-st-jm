@@ -1,6 +1,6 @@
 body{
     background-color: #F0F0F0;
-    font-family: anton, serif;
+    font-family: 'Abel', serif;
 }
 
 .logo-img {
@@ -47,10 +47,6 @@ body{
     margin-top: 5em;
     border-top: 2px solid #808080;
     font-family: Abel;
-}
-.content-header {
-    text-align: center;
-    padding: 2em;
 }
 .card {
     margin-outside: 4px solid #E6E6E6;
