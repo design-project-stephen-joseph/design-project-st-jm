@@ -43,7 +43,6 @@ h1, h2, h3, h4 .anton-font {
 .sub-heading {
     /*font-size: 65px;*/
     font-size: 3em;
-    border-radius: ;
 }
 
 .sub-sub-heading {
@@ -63,12 +62,12 @@ h1, h2, h3, h4 .anton-font {
 }
 
 .colored-circles {
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.25em;
+    height: 1.25em;
     border-radius: 50%;
     color: black;
     font-family: 'Anton', serif;
-    font-size: 1em;
+    font-size: .5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,7 +90,7 @@ h1, h2, h3, h4 .anton-font {
 
 #theLast h3 {
     /*font-size: 1.5em;*/
-    width: 60%;
+    /*width: 60%;*/
 }
 
 #selectedWork h5 {
