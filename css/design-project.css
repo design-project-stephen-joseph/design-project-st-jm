@@ -43,6 +43,7 @@ h1, h2, h3, h4 .anton-font {
 .sub-heading {
     /*font-size: 65px;*/
     font-size: 3em;
+    border-radius: ;
 }
 
 .sub-sub-heading {
@@ -89,6 +90,7 @@ h1, h2, h3, h4 .anton-font {
 }
 
 #theLast h3 {
+    /*font-size: 1.5em;*/
     width: 60%;
 }
 
@@ -101,7 +103,7 @@ h1, h2, h3, h4 .anton-font {
 }
 
 .last-tweet {
-    padding: 2em 3em 2em 0;
+    padding: 1em 3em 0 0;
 }
 
 ul {
